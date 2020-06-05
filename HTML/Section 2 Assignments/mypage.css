@@ -1,0 +1,13 @@
+body {
+    margin:0;
+    padding:0;
+}
+div img {
+    max-width: 150px;
+}
+div {
+    margin-left:150px;
+    width: 70%;
+    min-width: 550px;
+    max-width: 840px;
+}
