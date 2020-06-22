@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Chuck Norris Joke Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Chuck Norris Joke Generator</h2>
+        <form>
+            <div>
+                <label for="number">Number of jokes</label>
+                <input type="number" id="number">
+            </div>
+            <div>
+                <button class="get-jokes">Get Jokes</button>
+            </div>
+        </form>
+        <ul class="jokes"></ul>
+    </div>
+    
+    <script src="app74.js"></script>
+</body>
+</html>
+
+<!--
+    - API: Application Programming Interface
+    - Contract provided by one piece of software to another
+    - Structured request and response
+    - We just worked with an API that takes a request and responds with jokes
+
+    - REST: Representational State Transfer
+    - Architecture style for designing networked applications
+    - Relies on a stateless, client-server protocol, almost always HTTP
+    - Treats server objects as resources that can be created or destroyed
+    - Can be used by any languages
+    - All have their own rules and structure
+
+    - GET: Retrieve data from a specified resource
+    - POST: Submit data to be processed to a specified resource
+    - PUT: Update a specified resource
+    - DELETE: Delete a specified resource
+    - HEAD: Same as get but does not return a body
+    - OPTIONS: Returns supported HTTP methods
+    - PATCH: Update partial resources
+
+    GET https://someurl.com/api/users - get all users
+    GET https://someurl.com/api/users/1 - get a single user
+    POST https://someurl.com/api/users - add user
+    PUT https://someurl.com/api/users/1 - update user
+    DELETE https://someurl.com/api/users/1 - delete user
+-->
